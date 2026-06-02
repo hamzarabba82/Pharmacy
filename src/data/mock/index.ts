@@ -6,7 +6,7 @@ import { handleInventory } from './inventory'
 import { handleCategories } from './categories'
 import { handleParties } from './parties'
 import { handleTransactions } from './transactions'
-import { handleAdmin } from './admin'
+import { handleAdmin } from './admin/index'
 
 type Handler = (config: any, state: MockState) => boolean
 
