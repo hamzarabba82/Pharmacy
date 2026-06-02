@@ -1,0 +1,26 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $gray-900;
+  background: $gray-50;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+input, select, textarea, button { font-family: inherit; }
+
+@media print {
+  .layout > *:first-child { display: none !important; }
+  .layout__content { margin-right: 0 !important; padding: 0 !important; }
+}
