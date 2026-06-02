@@ -3,7 +3,7 @@ import { parseRequestData, requireAccess, okResponse, createdResponse } from '..
 import type { User } from '../../../types'
 import type { MockState } from '../state'
 
-export function handleUsers(config: any, state: MockState): boolean {
+export function handleUsers(config: any, _state: MockState): boolean {
   const url = config.url || ''
   const method = (config.method || 'get').toLowerCase()
 

@@ -2,7 +2,7 @@ import { getMockStats } from '../../mockData'
 import { requireAccess, okResponse } from '../helpers'
 import type { MockState } from '../state'
 
-export function handleDashboard(config: any, state: MockState): boolean {
+export function handleDashboard(config: any, _state: MockState): boolean {
   const url = config.url || ''
   const method = (config.method || 'get').toLowerCase()
 
