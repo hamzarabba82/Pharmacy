@@ -56,16 +56,16 @@ export const mockCustomers: Customer[] = [
 ]
 
 export const mockInvoices: Sale[] = [
-  { id: 1, invoice_number: 'INV-20260501-001', user_id: 2, customer_id: 1, customer: mockCustomers[0], total_amount: 50.00, discount: 0, net_amount: 50.00, payment_method: 'cash', status: 'completed', created_at: '2026-05-01T10:30:00', items: [
+  { id: 1, invoice_number: 'INV-20260601-001', user_id: 2, customer_id: 1, customer: mockCustomers[0], total_amount: 50.00, discount: 0, net_amount: 50.00, payment_method: 'cash', status: 'completed', created_at: '2026-06-01T10:30:00', items: [
     { id: 1, sale_id: 1, medicine_id: 1, batch_id: 1, quantity: 5, unit_price: 5.00, total_price: 25.00, medicine: mockMedicines[0] },
     { id: 2, sale_id: 1, medicine_id: 4, batch_id: 5, quantity: 1, unit_price: 25.00, total_price: 25.00, medicine: mockMedicines[3] },
   ]},
-  { id: 2, invoice_number: 'INV-20260502-001', user_id: 2, customer_id: 2, customer: mockCustomers[1], total_amount: 108.00, discount: 8.00, net_amount: 100.00, payment_method: 'card', status: 'completed', created_at: '2026-05-02T14:15:00', items: [
+  { id: 2, invoice_number: 'INV-20260602-001', user_id: 2, customer_id: 2, customer: mockCustomers[1], total_amount: 108.00, discount: 8.00, net_amount: 100.00, payment_method: 'card', status: 'completed', created_at: '2026-06-02T14:15:00', items: [
     { id: 3, sale_id: 2, medicine_id: 3, batch_id: 4, quantity: 3, unit_price: 12.00, total_price: 36.00, medicine: mockMedicines[2] },
     { id: 4, sale_id: 2, medicine_id: 6, batch_id: 7, quantity: 2, unit_price: 15.00, total_price: 30.00, medicine: mockMedicines[5] },
     { id: 5, sale_id: 2, medicine_id: 9, batch_id: 10, quantity: 7, unit_price: 6.00, total_price: 42.00, medicine: mockMedicines[8] },
   ]},
-  { id: 3, invoice_number: 'INV-20260503-001', user_id: 3, customer_id: 3, customer: mockCustomers[2], total_amount: 35.00, discount: 0, net_amount: 35.00, payment_method: 'cash', status: 'completed', created_at: '2026-05-03T09:45:00', items: [
+  { id: 3, invoice_number: 'INV-20260603-001', user_id: 3, customer_id: 3, customer: mockCustomers[2], total_amount: 35.00, discount: 0, net_amount: 35.00, payment_method: 'cash', status: 'completed', created_at: '2026-06-03T09:45:00', items: [
     { id: 6, sale_id: 3, medicine_id: 5, batch_id: 6, quantity: 1, unit_price: 35.00, total_price: 35.00, medicine: mockMedicines[4] },
   ]},
   { id: 4, invoice_number: 'INV-20260504-001', user_id: 1, total_amount: 22.00, discount: 0, net_amount: 22.00, payment_method: 'network', status: 'refunded', created_at: '2026-05-04T16:20:00', items: [
